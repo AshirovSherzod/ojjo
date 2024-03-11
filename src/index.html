@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="bg-[url(../images/hero/bgc.png)]">
+    <header class="bg-[url(../images/hero/bgc.png)] bg-cover">
         <nav>
             <div class="container m-auto flex flex-row justify-between items-center py-8">
                 <ul class="flex flex-row gap-8 max-lg:hidden">
@@ -30,8 +30,65 @@
                 </div>
             </div>
         </nav>
+        <section>
+            <div class="container m-auto flex flex-col items-center gap-[50px]">
+                <h1 class="text-4xl font-bold text-white text-center pt-[560px]">Долго, дорого, богато!</h1>
+                <button class="border-2 border-[#333333] w-[260px] h-[50px]">каталог изделий</button>
+            </div>
+            <div class="container m-auto mt-[20px]">
+                <hr>
+                <div class="flex flex-row justify-evenly mt-[15px]">
+                    <img src="../images/hero/first-screen__brands-item.svg" alt="">
+                    <hr>
+                    <img src="../images/hero/first-screen__brands-item.svg" alt="">
+                    <hr>
+                    <img class="max-md:hidden" src="../images/hero/first-screen__brands-item.svg" alt="">
+                    <hr>
+                    <img class="max-md:hidden" src="../images/hero/first-screen__brands-item.svg" alt="">
+                    <hr>
+                    <img class="max-lg:hidden" src="../images/hero/first-screen__brands-item.svg" alt="">
+                    <hr>
+                    <img class="max-lg:hidden" src="../images/hero/first-screen__brands-item.svg" alt="">
+                </div>
+            </div>
+
+        </section>
 
     </header>
+    <main>
+        <section class="bg-[#060606] pb-[100px]">
+            <div class="container m-auto flex flex-col items-center">
+                <p class="text-xl text-white text-center pt-[100px]">Не знаете, что выбрать?</p>
+                <h2 class="text-4xl text-white text-center pt-[15px] font-bold max-sm:text-2xl">Посетите наши салоны в
+                    Москве</h2>
+                <p class="text-[14px] text-white text-center pt-[45px] max-sm:text-[12px]">Lorem ipsum dolor sit amet,
+                    consectetur
+                    adipiscing
+                    elit. Ut duis tortor vitae pellentesque <br>
+                    egestas quam pulvinar. Pellentesque porttitor velit sit pellentesque. Suspendisse donec <br> pretium
+                    id dignissim.
+                    Dignissim ultrices eget orci viverra. Egestas quis <br> et ut ultrices imperdiet lectus nulla
+                    tempus. Pharetra lorem sem purus nisi
+                    libero viverra ipsum.
+                </p>
+                <button class="mt-[75px] border-2 border-transparent font-medium text-[18px] bg-white ">наши
+                    салоны</button>
+            </div>
+        </section>
+        <section>
+            <div class="container m-auto flex flex-col items-center">
+                <p class="text-2xl text-center pt-[100px]">Полезные статьи</p>
+                <h2 class="text-3xl text-center pt-[15px] font-bold">Лучшие советы по подбору дорогих подарков</h2>
+                <div class=" grid grid-cols-3 gap-2 pt-[60px] max-lg:grid-cols-2 max-sm:grid-cols-1">
+                    <img class="w-[100%]" src="../images/gift/blog__item.png" alt="">
+                    <img class="w-[100%]" src="../images/gift/blog__item (1).png" alt="">
+                    <img class="w-[100%]" src="../images/gift/blog__item (2).png" alt="">
+                </div>
+                <button class="border-2 bg-[#333333] text-white text-[18px] mt-[60px] p-2 mb-[100px]">читать наш
+                    блог</button>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
